@@ -1,45 +1,46 @@
 <template>
-  <div id="app">
+
     <div class="container">
-    <Header></Header>
-    <router-view></router-view>
-    <Footer></Footer>
+        <app-Header></app-Header>
+ 
+                <!--<h1 v-highlight="'red'">Routing</h1>
+                <p >Hello World</p>
+                <h3>Local Directive</h3>
+                <p>{{text | toUpperCase | to-lowercase}}</p> -->
+                
+        <router-view></router-view>
+        <app-Footer></app-Footer>
+
     </div>
-  </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-export default {
-  name: 'App',
-  components: {
-    Header,Footer
-  }
-}
+/* eslint-disable */
+    import Header from './components/Header.vue';
+    import Footer from './components/Footer.vue';
+    export default {
+        data(){
+            return{
+                text:'Hello World'
+            }
+        },filters:{
+            toUpperCase(value){
+                return value.toUpperCase();
+            }
+        },
+        components:{
+            appHeader:Header,
+            appFooter:Footer
+        },directives:{
+            'local-hightlight':{
+                bind(el, binding, vnode){
+                el.style.color='blue';
+            }
+        }
+    }
+    }
 </script>
 
 <style>
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-#nav {
-  padding: 30px;
-
-}
-#nav a{
-  font-weight: bold;
-  color:#2c3e50
-}
-#nav a.router-link-exact-active{
-  color:#42b983;
-}
-
+@import '../src/assets/style.css';
 </style>

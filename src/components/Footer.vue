@@ -1,6 +1,5 @@
 <template>
 <div>
-  <hr>
 <footer class="page-footer">
   <div class="container">
     <div class="row">
@@ -23,5 +22,8 @@
 </div>
 </template>
 <script>
+
+
+
 
 </script>

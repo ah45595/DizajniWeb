@@ -17,63 +17,72 @@
           <a>About</a>
         </router-link>
       </li>
-      <li class="nav-item">
-        <router-link class="nav-link" to="/users-list" >
-          <a>Users List</a>
+      <li class="nav-item" v-if="user.loggedIn">
+        <router-link class="nav-link" to="/dashboard" >
+          <a>Dashboard</a>
         </router-link>
       </li>
-      <template v-if="user.loggedIn">
-        <li class="nav-item">
-          <a class="nav-link">{{user.data.displayName}}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" @click.prevent="signOut">Log Out!</a>
-        </li>
-      </template>
-      <template v-else>
-        <li class="nav-item">
-         <router-link to="login" class="nav-link">Login</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="register" class="nav-link">Register</router-link>
-        </li>
-      </template>
-
-
-      
+      <li class="nav-item">
+        <router-link class="nav-link" to="/user" >
+          <a>User</a>
+        </router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/contact" >
+          <a>Contact</a>
+        </router-link>
+      </li>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav ml-auto">
+          <template v-if="user.loggedIn">
+            <div class="nav-item">
+             <a class="nav-link"> {{user.data.displayName}} </a>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" @click.prevent="signOut">Sign out</a>
+            </li>
+          </template>
+          <template v-else>
+            <li class="nav-item">
+              <router-link to="login" class="nav-link">Login</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="register" class="nav-link">Register</router-link>
+            </li>
+          </template>
+        </ul>
+      </div>
       
     </ul>
   </div>
 </nav>
-
-
 
 </div>
 
 </template>
 
 <script>
-import {mapGetters} from "vuex"
-import firebase from 'firebase'
-
-
+import { mapGetters } from "vuex";
+import firebase from "firebase";
 export default {
-  computed:{
+  computed: {
     ...mapGetters({
-      user:"user"
+// map `this.user` to `this.$store.getters.user`
+      user: "user"
     })
-
-  },methods:{
-    signOut(){
+  },
+  methods: {
+    signOut() {
       firebase
-      .auth()
-      .signOut()
-      .then(()=>{
-        this.$router.replace({
-        name:"home"
-      })
-      })
+        .auth()
+        .signOut()
+        .then(() => {
+          this.$router.replace({
+            name: "home"
+          });
+        });
     }
   }
-}
+};
 </script>
