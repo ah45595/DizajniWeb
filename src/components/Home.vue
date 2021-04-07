@@ -13,21 +13,6 @@
       <p>{{ product.description }}</p>
     </div>
  
-    <!--<div class="col-lg-4 col-md-4 col-sm-12">		
-        <h3 class="feature-title">Comment us</h3>
-<form @submit="onSubmit">
-<div class="form-group">
-  <input type="text" class="form-control" placeholder="Name" v-model="products.name">
-</div>
-<div class="form-group">
-  <input type="text" class="form-control" placeholder="Description" v-model="products.image">
-</div>
-<div class="form-group">
-  <textarea class="form-control" rows="4" v-model="products.description"></textarea>
-</div>
-<input type="submit" class="btn btn-secondary btn-block" value="Send">
-</form>
-    </div>-->
   </div> 
 </div>
 </template>

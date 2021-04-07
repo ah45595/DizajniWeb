@@ -1,23 +1,94 @@
 <template>
 <div>
 <footer class="page-footer">
-  <div class="container">
+  <!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
     <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-12">
-      <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+        <!-- Links -->
+        <h1 id="footer-logo" class="font-weight-bold text-uppercase">TECHNEWS</h1>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <ul class="list-unstyled">
+          <li class="speical-footer-style">
+            <a class="navbar-link" href="#!">About us</a>
+          </li>
+          <li class="speical-footer-style">
+            <a class="navbar-link" href="#!">Tip us</a>
+          </li>
+          <li class="speical-footer-style">
+            <a class="navbar-link" href="#!">Cookies</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <ul class="list-unstyled speical-footer-style">
+          <li class="speical-footer-style">
+            <a class="navbar-link" href="#!">Community</a>
+          </li>
+          <li class="speical-footer-style">
+            <a class="navbar-link" href="#!">Contact Us</a>
+          </li>
+          <li class="speical-footer-style">
+            <a class="navbar-link" href="#!">Terms of Use</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="fa fa-facebook"></a>
+          </li>
+          <li>
+            <a href="#" class="fa fa-twitter"></a>
+          </li>
+          <li>
+            <a href="#" class="fa fa-instagram"></a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <h6 class="text-uppercase font-weight-bold">Contact</h6>
-      <p>Lagjia Kalabria p.n
-      <br/>info@mywebsite.com
-      <br/>+ 383 38 541 400
-      <br/>+ 383 44 541 400</p>
-    </div>
+    <!-- Grid row -->
+
   </div>
-  </div>
-  <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+  <div class="footer-copyright text-center"><span>TECHNEWS </span>All rights reserved©</div>
 </footer>
 </div>
 </template>

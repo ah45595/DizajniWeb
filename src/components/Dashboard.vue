@@ -11,22 +11,7 @@
         </div>
       </div>
       <div v class="col-md-6">
-      <!--<form @submit="submitFile">
-        <div class="form-group">
-          <label for="title">Title</label>
-          <input type="text" class="form-control" placeholder="Enter Title" id="title" v-model="products.title" >
-          
-        </div>
-        <div class="form-group">
-          <label for="picture">Picture</label>
-          <input type="file" id="file" name="file" ref="file" class="form-control-file"  @change="handleFileUpload" >
-        </div>
-        <div class="form-group">
-          <label for="textarea" >Description</label>
-          <textarea class="form-control" rows="4" id="description" v-model="products.description"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>-->
+      
 <form @submit="onSubmit">
         <div class="form-group">
           <label for="title">Title</label>
