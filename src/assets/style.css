@@ -163,30 +163,37 @@ button#search-button:focus {
 }
 .aboutus{
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
   font-family: Oswald;
-  padding: 60px;
-  margin:5px;
+  padding: 50px;
 }
 .profile-img{
-  text-align: left;
-  width: 287px;
-  height: 287px;
-  border-radius: 60%;
+  text-align:center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   object-fit:cover;
 }
-p{
-  font-size: 23px;
-  margin-left: 20px;
-
+.profile-name{
+  position: absolute;
+  top: 80%;
+  left:40%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  font-family: Oswald;
 }
+.profile-title{
+  margin-left: 20px;
+  font-family: Oswald;
+}
+
 .button{
 background-color:black;
 border: none;
 color:white;
-padding: 16px 32px;
+padding: 10px 20px;
 text-align: center;
-font-size: 20px;
+font-size: 15px;
 margin: 4px 2px;
 transition: 0.3s;
 }
@@ -194,18 +201,7 @@ transition: 0.3s;
   background-color: #E2127A;
   color: white;
 }
-.profile-name{
-  position: absolute;
-  top: 80%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  font-size:30px;
-  font-family: Oswald;
-}
-.profile-title{
-  margin-left: 33px;
-  font-family: Oswald;
-}
+
 .page-footer {
   background-color: #000000;
   color: white;

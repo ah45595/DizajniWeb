@@ -8,7 +8,7 @@
       <h1 class="profile-name">Agan Haziri</h1>
       </div>
       <div class="col-9">
-      <h3 class="profile-title">Lead front end developer</h3>
+      <h4 class="profile-title">Lead front end developer</h4>
       <p>
         Cras sit amet nivh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
@@ -30,7 +30,7 @@
        <h1 class="profile-name">Agan Haziri</h1>
       </div>
       <div class="col-9">
-      <h3 class="profile-title">Lead front end developer</h3>
+      <h4 class="profile-title">Lead front end developer</h4>
       <p>
         Cras sit amet nivh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
@@ -52,7 +52,7 @@
        <h1 class="profile-name">Agan Haziri</h1>
       </div>
       <div class="col-9">
-      <h3 class="profile-title">Lead front end developer</h3>
+      <h4 class="profile-title">Lead front end developer</h4>
       <p>
         Cras sit amet nivh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
@@ -74,7 +74,7 @@
        <h1 class="profile-name">Agan Haziri</h1>
       </div>
       <div class="col-9">
-      <h3 class="profile-title">Lead front end developer</h3>
+      <h4 class="profile-title">Lead front end developer</h4>
       <p>
         Cras sit amet nivh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
