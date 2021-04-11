@@ -4,7 +4,7 @@
 
     <div class="row">
       <div class="col-3">
-        <img class="profile-img" :src="require('../assets/profile.jpg')" />
+        <img class="profile-img" :src="require('../assets/picture.jpg')" />
       <h1 class="profile-name">Agan Haziri</h1>
       </div>
       <div class="col-9">

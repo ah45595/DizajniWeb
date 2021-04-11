@@ -173,6 +173,7 @@ button#search-button:focus {
   width: 287px;
   height: 287px;
   border-radius: 60%;
+  object-fit:cover;
 }
 p{
   font-size: 23px;
@@ -190,7 +191,7 @@ margin: 4px 2px;
 transition: 0.3s;
 }
 .button:hover{
-  background-color: #3e8e41;
+  background-color: #E2127A;
   color: white;
 }
 .profile-name{
