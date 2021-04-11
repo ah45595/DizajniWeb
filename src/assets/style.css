@@ -161,7 +161,50 @@ button#search-button:focus {
   font-size: 1.3rem;
   line-height: 1.5;
 }
+.aboutus{
+  text-align: center;
+  font-size: 80px;
+  font-family: Oswald;
+  padding: 60px;
+  margin:5px;
+}
+.profile-img{
+  text-align: left;
+  width: 287px;
+  height: 287px;
+  border-radius: 60%;
+}
+p{
+  font-size: 23px;
+  margin-left: 20px;
 
+}
+.button{
+background-color:black;
+border: none;
+color:white;
+padding: 16px 32px;
+text-align: center;
+font-size: 20px;
+margin: 4px 2px;
+transition: 0.3s;
+}
+.button:hover{
+  background-color: #3e8e41;
+  color: white;
+}
+.profile-name{
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size:30px;
+  font-family: Oswald;
+}
+.profile-title{
+  margin-left: 33px;
+  font-family: Oswald;
+}
 .page-footer {
   background-color: #000000;
   color: white;

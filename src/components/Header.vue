@@ -24,7 +24,7 @@
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/about">
-              <a>KATEGORITË</a>
+              <a>ABOUT US</a>
             </router-link>
           </li>
           <li class="nav-item" v-if="user.loggedIn">
@@ -56,6 +56,7 @@
               </template>
               <template v-else>
                 <li class="nav-item">
+                  
                   <router-link to="login" class="nav-link">Login</router-link>
                 </li>
                 <li class="nav-item">
