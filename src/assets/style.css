@@ -13,7 +13,7 @@ body {
     display: none;
   }
   .navbar-expand-md .navbar-toggler {
-    display: inline;
+    display: inline !important;
     float: right;
     text-align: right;
   }
@@ -291,3 +291,10 @@ a.navbar-link:focus{
   );
   color: white;
 }
+
+button.navbar-toggler.navbar-dark {
+  margin-left: auto;
+  order: 2;
+}
+
+
