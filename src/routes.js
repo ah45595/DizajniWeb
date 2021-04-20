@@ -1,21 +1,26 @@
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import AddUser from './components/users/AddUser.vue'
-import EditUser from './components/users/EditUser.vue'
-import ShowUsers from './components/users/ShowUsers.vue'
-import UsersList from './components/users/UsersList.vue'
-import Login from './components/auth/Login.vue'
-import Register from './components/auth/Register.vue'
+import User from './components/user/User';
+import Home from './components/Home';
+import Dashboard from './components/Dashboard';
+import About from './components/About';
+import UserEdit from './components/user/UserEdit';
+import Settings from './components/user/Settings';
+import Contact from './components/Contact';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
+import Category from './components/category/Categorylist.vue';
+//importojme gjithe ato komponenta qe do i regjistrojme si routes
 
-export const routes =[
-    {path:'/', name:'home', component:Home},
-    {path:'/users-list', name:'UsersList', component:UsersList},
-    //{path:'/', name:'home', component:Home},
-    //{path:'/header',component:() => /* webpackChunkName:'header' */ Header}
-    {path:'/about',name:'about', component: About},
-    {path:'/show-user/:id',name:'ShowUsers', component: ShowUsers},
-    {path:'/add-user',name:'AddUser', component: AddUser},
-    {path:'/edit-user/:id',name:'EditUser', component: EditUser},
-    {path:'/login',name:'login', component: Login},
-    {path:'/register',name:'register', component: Register},
+
+
+export const routes = [
+    { path:'/', name:'home', component:Home},
+    { path: '/about', name:'about', component:About},
+    { path: '/user', name:'user', component: User},
+    { path: '/useredit', name:'useredit', component:UserEdit},
+    { path: '/contact', name:'contact', component:Contact},
+    { path: '/category', name:'category', component:Category},
+    { path: '/dashboard', name:'dashboard', component:Dashboard},
+    { path: '/settings', name:'settings', component:Settings},
+    { path: '/login', name:'login', component:Login},
+    { path: '/register', name:'register', component:Register}
 ]
