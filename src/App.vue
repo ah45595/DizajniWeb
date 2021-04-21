@@ -12,6 +12,7 @@
 /* eslint-disable */
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import Slider from "./components/Home-Slider.vue";
 export default {
   data() {
     return {
@@ -26,6 +27,7 @@ export default {
   components: {
     appHeader: Header,
     appFooter: Footer,
+    Slider
   },
   directives: {
     "local-hightlight": {
