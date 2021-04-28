@@ -1,7 +1,7 @@
 <template>
  <div class="auth-inner">
     <div class="auth-log">
-        LOG IN
+        SIGN UP
     </div>
     
     <form>
