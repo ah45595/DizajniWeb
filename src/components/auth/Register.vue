@@ -1,11 +1,9 @@
 <template>
  <div class="auth-inner">
     <div class="auth-log">
-<<<<<<< Updated upstream
-        SIGN UP
-=======
+
         Sign Up
->>>>>>> Stashed changes
+
     </div>
     
     <form>

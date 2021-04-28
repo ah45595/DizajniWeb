@@ -22,10 +22,6 @@
         </div>
     </form>
 </div>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 </template>
 
 <script>
