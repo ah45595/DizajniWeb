@@ -23,6 +23,11 @@
             </router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" to="/category">
+            <a>KATEGORITË</a>
+            </router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" to="/about">
               <a>ABOUT US</a>
             </router-link>
