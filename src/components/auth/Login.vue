@@ -21,6 +21,7 @@
             <a href="#" class="forgot-password">Forgot the password?</a>
         </div>
     </form>
+    </div>
 </template>
 
 <script>
