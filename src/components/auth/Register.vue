@@ -1,7 +1,11 @@
 <template>
  <div class="auth-inner">
     <div class="auth-log">
+<<<<<<< Updated upstream
         SIGN UP
+=======
+        Sign Up
+>>>>>>> Stashed changes
     </div>
     
     <form>
@@ -31,9 +35,9 @@
         
         </div>
         <button class="btn-block">Register</button>
+    </form>
 
-</form>
- </div>
+</div>
 </template>
 
 
@@ -102,7 +106,7 @@ import firebase from "firebase";
   font-size: 40px;
   font-weight: 400;
   font-family: Oswald;
-    padding-top: -14px ;
+  padding-top: -14px ;
 }
 
 .auth-log{
