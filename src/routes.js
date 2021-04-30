@@ -9,6 +9,9 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Category from './components/category/Categorylist.vue';
 import Smartphones from "./components/Smartphones.vue";
+import Cloud from "./components/Cloud.vue";
+import FiveG from "./components/FiveG.vue";
+import Iot from "./components/Iot.vue";
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 
@@ -24,5 +27,8 @@ export const routes = [
     { path: '/settings', name:'settings', component:Settings},
     { path: '/login', name:'login', component:Login},
     { path: '/register', name:'register', component:Register},
-    { path: '/smartphones', name:'smartphones', component:Smartphones}
+    { path: '/smartphones', name:'smartphones', component:Smartphones},
+    { path: '/cloud', name:'cloud', component:Cloud},
+    { path: '/5G', name:'5G', component:FiveG},
+    { path: '/iot', name:'iot', component:Iot}
 ]

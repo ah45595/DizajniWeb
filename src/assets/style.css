@@ -300,5 +300,8 @@ button.navbar-toggler.navbar-dark {
   width: 450%;
   text-align: center;
 }
+.card {
+  margin: 10px;
+}
 
 
