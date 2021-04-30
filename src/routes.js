@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Category from './components/category/Categorylist.vue';
+import Smartphones from "./components/Smartphones.vue";
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 
@@ -22,5 +23,6 @@ export const routes = [
     { path: '/dashboard', name:'dashboard', component:Dashboard},
     { path: '/settings', name:'settings', component:Settings},
     { path: '/login', name:'login', component:Login},
-    { path: '/register', name:'register', component:Register}
+    { path: '/register', name:'register', component:Register},
+    { path: '/smartphones', name:'smartphones', component:Smartphones}
 ]

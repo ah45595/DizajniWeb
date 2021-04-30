@@ -13,6 +13,7 @@
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Slider from "./components/Home-Slider.vue";
+import Smartphones from "./components/Smartphones.vue";
 export default {
   data() {
     return {
@@ -27,7 +28,8 @@ export default {
   components: {
     appHeader: Header,
     appFooter: Footer,
-    Slider
+    Slider,
+    Smartphones
   },
   directives: {
     "local-hightlight": {

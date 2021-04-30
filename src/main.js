@@ -3,16 +3,18 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import firebase from "firebase";
 import Slider from "./components/Home-Slider.vue";
+import Smartphones from "./components/Smartphones.vue";
 
 
-//fajlli routes importohet te kjo pjese dhe ne at file kemi deklaruar routat e ndryshem se cila route te cila komponent dergon gjate klikut
 import { routes } from './routes';
-//vue router e instalojme me npm install vue-router pastaj e thirrim ne main.js me import VueRouter from 'vue-router'
 
 import store from "./store";
 
 //Slider Created
 Vue.component('app-home-slider',Slider);
+
+//Smartphones Created
+Vue.component('Smartphones',Smartphones);
 
 //regjistrimi i filterit global per zvogelimin e shkronjave
 Vue.filter('to-lowercase',function(value){
