@@ -35,7 +35,7 @@
                   aria-expanded="false"
                 ></button>
               </router-link>
-              <div>
+              <div class="dropdown-background">
                 <b-dropdown id="dropdown-left" text="Left align" variant="primary" class="m-2">
                   <b-dropdown-item href="#">
                     <router-link class="nav-link" to="/laptop">Laptop</router-link>
@@ -49,6 +49,19 @@
                   <b-dropdown-item href="#">
                     <router-link class="nav-link" to="/security">Security</router-link>
                     </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/cloud">Cloud</router-link>
+                    </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/smartphones">Smartphone</router-link>
+                    </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/5G">5G</router-link>
+                    </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/iot">IoT</router-link>
+                    </b-dropdown-item>
+
                 </b-dropdown>
               </div>
             </div>
@@ -139,7 +152,16 @@ export default {
 };
 </script>
 <style scoped>
-.dropdown-toggle::after {
-    color: #E2127A;
-    }
+.dropdown-toggle:after {
+  color: #e2127a;
+  font-size:28px;
+}
+.btn-secondary {
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+.dropdown-background {
+    background: #343434;
+}
 </style>
