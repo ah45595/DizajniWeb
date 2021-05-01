@@ -2,7 +2,7 @@
   <div>
     <img
       class="smartphones-cover"
-      :src="require('../assets/laptops-cover.jpg')"
+      :src="require('../assets/gaming-cover.jpeg')"
     />
     <div class="container">
       <div class="row">
