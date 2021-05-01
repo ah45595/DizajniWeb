@@ -23,9 +23,48 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/category">
-            <a>KATEGORITË</a>
-            </router-link>
+            <div class="dropdown">
+              <router-link class="nav-link" to="/category">
+                <a>KATEGORITË</a>
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenu2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                ></button>
+              </router-link>
+              <div class="dropdown-background">
+                <b-dropdown id="dropdown-left" text="Left align" variant="primary" class="m-2">
+                  <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/laptop">Laptop</router-link>
+                    </b-dropdown-item>
+                  <b-dropdown-item href="#">
+                   <router-link class="nav-link" to="/desktop">Desktop</router-link>
+                    </b-dropdown-item>
+                  <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/gaming">Gaming</router-link>
+                    </b-dropdown-item>
+                  <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/security">Security</router-link>
+                    </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/cloud">Cloud</router-link>
+                    </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/smartphones">Smartphone</router-link>
+                    </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/5G">5G</router-link>
+                    </b-dropdown-item>
+                    <b-dropdown-item href="#">
+                    <router-link class="nav-link" to="/iot">IoT</router-link>
+                    </b-dropdown-item>
+
+                </b-dropdown>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/about">
@@ -42,11 +81,22 @@
               <a>CONTACT</a>
             </router-link>
           </li>
-         <div class="input-group">
-  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-    aria-describedby="search-addon" />
-  <button id="search-button" type="button" class="btn btn-outline-primary">search</button>
-</div>
+          <div class="input-group">
+            <input
+              type="search"
+              class="form-control rounded"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+            <button
+              id="search-button"
+              type="button"
+              class="btn btn-outline-primary"
+            >
+              search
+            </button>
+          </div>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto"></ul>
@@ -61,7 +111,6 @@
               </template>
               <template v-else>
                 <li class="nav-item">
-                  
                   <router-link to="login" class="nav-link">Login</router-link>
                 </li>
                 <li class="nav-item">
@@ -82,7 +131,6 @@
 import { mapGetters } from "vuex";
 import firebase from "firebase";
 export default {
- 
   computed: {
     ...mapGetters({
       // map `this.user` to `this.$store.getters.user`
@@ -103,3 +151,17 @@ export default {
   },
 };
 </script>
+<style scoped>
+.dropdown-toggle:after {
+  color: #e2127a;
+  font-size:28px;
+}
+.btn-secondary {
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+.dropdown-background {
+    background: #343434;
+}
+</style>
