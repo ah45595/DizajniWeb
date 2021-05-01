@@ -13,6 +13,9 @@ import Cloud from "./components/Cloud.vue";
 import FiveG from "./components/FiveG.vue";
 import Iot from "./components/Iot.vue";
 import Laptop from "./components/Laptop.vue";
+import Desktop from "./components/Desktop.vue";
+import Gaming from "./components/Gaming.vue";
+import Security from "./components/Security.vue";
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 
@@ -32,5 +35,8 @@ export const routes = [
     { path: '/cloud', name:'cloud', component:Cloud},
     { path: '/5G', name:'5G', component:FiveG},
     { path: '/iot', name:'iot', component:Iot},
-    {path: '/laptop', name:'laptop', component:Laptop}
+    {path: '/laptop', name:'laptop', component:Laptop},
+    {path: '/desktop', name:'desktop', component:Desktop},
+    {path: '/gaming', name:'gaming', component:Gaming},
+    {path: '/security', name:'security', component:Security}
 ]
