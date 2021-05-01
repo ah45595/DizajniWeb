@@ -2,7 +2,7 @@
   <div>
     <img
       class="smartphones-cover"
-      :src="require('../assets/laptops-cover.jpg')"
+      :src="require('../assets/desktop-cover.jpg')"
     />
     <div class="container">
       <div class="row">
@@ -13,7 +13,7 @@
     </div>
     <div class="card-group">
       <div class="card">
-        <img class="card-img-top" :src="require('../assets/img1-cover.jpg')" alt="Card image cap" />
+        <img class="card-img-top" :src="require('../assets/desktop-cover.jpg')" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" :src="require('../assets/laptops-cover.jpg')" alt="Card image cap" />
+        <img class="card-img-top" :src="require('../assets/desktop-cover.jpg')" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" :src="require('../assets/laptops-cover.jpg')" alt="Card image cap" />
+        <img class="card-img-top" :src="require('../assets/desktop-cover.jpg')" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -55,7 +55,7 @@
     </div>
     <div class="card-group">
       <div class="card">
-        <img class="card-img-top" :src="require('../assets/laptops-cover.jpg')" alt="Card image cap" />
+        <img class="card-img-top" :src="require('../assets/desktop-cover.jpg')" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" :src="require('../assets/laptops-cover.jpg')" alt="Card image cap" />
+        <img class="card-img-top" :src="require('../assets/desktop-cover.jpg')" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -81,7 +81,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" :src="require('../assets/laptops-cover.jpg')" alt="Card image cap" />
+        <img class="card-img-top" :src="require('../assets/desktop-cover.jpg')" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
