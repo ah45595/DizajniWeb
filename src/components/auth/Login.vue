@@ -100,7 +100,7 @@ export default {
     color: white;
     font-family: Oswald;
     height: 30px;
-    width: 310px;
+    width: 190px;
     margin-bottom: 5px;
 }
 .btn:hover{
@@ -108,6 +108,10 @@ export default {
     color:black;
 }
 .form-control{
+    width: 190px;
     border-radius: 50px;
+}
+.card{
+    width: 450px;
 }
 </style>
