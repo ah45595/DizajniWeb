@@ -163,5 +163,11 @@ export default {
 }
 .dropdown-background {
     background: #343434;
+    display: none;
+    position: absolute;
 }
+#dropdownMenu2:hover{
+    background: #343434;
+}
+
 </style>
