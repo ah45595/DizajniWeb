@@ -93,6 +93,7 @@ export default {
 .form-group {
     font-family: Oswald;
     color: black;
+    
 }
 .btn {
     background-color: black;
@@ -101,5 +102,12 @@ export default {
     height: 30px;
     width: 310px;
     margin-bottom: 5px;
+}
+.btn:hover{
+    background-color: green;
+    color:black;
+}
+.form-control{
+    border-radius: 50px;
 }
 </style>
