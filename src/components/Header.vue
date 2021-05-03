@@ -72,7 +72,7 @@
             </router-link>
           </li>
           <li class="nav-item" v-if="user.loggedIn">
-            <router-link class="nav-link" to="/dashboard">
+            <router-link class="nav-link" to="/Howto">
               <a>HOW TO</a>
             </router-link>
           </li>
