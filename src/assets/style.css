@@ -304,4 +304,15 @@ button.navbar-toggler.navbar-dark {
   margin: 10px;
 }
 
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  background: #f3f3f3;
+  color: #152028;
+  transition: background 0.3s ease-in-out;
+}
 
+.dark{
+  background: black;
+  color: #f3f3f3;
+}
