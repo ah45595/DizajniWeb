@@ -1,5 +1,6 @@
 <template>
   <div>
+    <header>
     <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" id="logo" href="#">TECHNEWS</a>
       <button
@@ -118,6 +119,7 @@
                     >Register</router-link
                   >
                 </li>
+                <Toggle :mode="mode" @toggle="$emit('toggle')"/>
               </template>
             </ul>
           </div>
@@ -130,14 +132,21 @@
 <script>
 import { mapGetters } from "vuex";
 import firebase from "firebase";
+import Toggle from '@/components/Toggle';
+
 export default {
-  computed: {
+ name:'Header',
+  props:['mode'],
+    components: {
+      Toggle
+    },
+   computed: {
     ...mapGetters({
       // map `this.user` to `this.$store.getters.user`
       user: "user",
     }),
-  },
-  methods: {
+
+    methods: {
     signOut() {
       firebase
         .auth()
@@ -145,13 +154,15 @@ export default {
         .then(() => {
           this.$router.replace({
             name: "home",
-          });
-        });
-    },
-  },
-};
+          })
+        })
+      }
+    }
+  }
+}
 </script>
-<style scoped>
+
+<style>
 .dropdown-toggle:after {
   color: #e2127a;
   font-size:28px;
@@ -169,5 +180,6 @@ export default {
 #dropdownMenu2:hover{
     background: #343434;
 }
+
 
 </style>
