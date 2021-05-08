@@ -1,6 +1,6 @@
 <template>
 
-<div class="container features">
+<div class="content">
     <div class="row">
       <app-home-slider></app-home-slider>
   <h1>Welcome to the Home Page!</h1>
@@ -9,7 +9,7 @@
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12" v-for="product in productfields" v-bind:key="product._id">
       <h3 class="feature-title">{{ product.title }}</h3>
-      <img :src="`http://localhost:5000/images/${product.image}`" class="img-fluid">
+      <img src="`http://localhost:5000/images/${product.image}`" class="img-fluid">
       
       <p>{{ product.description }}</p>
     </div>
@@ -17,17 +17,23 @@
   </div> 
 </div>
 </template>
+
 <script>
 /* eslint-disable */
+
 import axios from 'axios'
 export default {
+  name: "Home",
+  props: ['mode'],
+
   name: 'CreateProducts',
   data () {
     return {
       productfields:{},
       products: {}
     }
-  },created () {
+  },
+  created () {
     axios.get(`http://localhost:4000/products`)
     .then(response => {
       this.productfields = response.data
@@ -43,7 +49,6 @@ export default {
       .then(function (response) {
         console.log(response);
         })
-      
     }
   }
 }
