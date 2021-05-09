@@ -126,6 +126,7 @@
         </ul>
       </div>
     </nav>
+    </header>
   </div>
 </template>
 
