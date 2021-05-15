@@ -27,7 +27,7 @@
     
     <div class="col-3">
         <img class="profile-img" :src="require('../assets/profile.jpg')" />
-       <h1 class="profile-name">Agan Haziri</h1>
+       <h1 class="profile-name">Arber Hajrizaj</h1>
       </div>
       <div class="col-9">
       <h4 class="profile-title">Lead front end developer</h4>
@@ -49,7 +49,7 @@
     
     <div class="col-3">
         <img class="profile-img" :src="require('../assets/profile.jpg')" />
-       <h1 class="profile-name">Agan Haziri</h1>
+       <h1 class="profile-name">Viola Salihi</h1>
       </div>
       <div class="col-9">
       <h4 class="profile-title">Lead front end developer</h4>
@@ -71,7 +71,7 @@
    
     <div class="col-3">
         <img class="profile-img" :src="require('../assets/profile.jpg')" />
-       <h1 class="profile-name">Agan Haziri</h1>
+       <h1 class="profile-name">Dita Ibrahimi</h1>
       </div>
       <div class="col-9">
       <h4 class="profile-title">Lead front end developer</h4>
@@ -94,4 +94,3 @@
   </div>
   </div>
 </template>
-
