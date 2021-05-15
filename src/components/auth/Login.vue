@@ -97,16 +97,20 @@ export default {
     
 }
 .btn {
+    border: 2px solid black;
     background-color: black;
     color: white;
     font-family: Oswald;
     height: 30px;
     width: 190px;
     margin-bottom: 5px;
+    
 }
 .btn:hover{
+  border: 2px solid green;
     background-color: green;
     color:black;
+
 }
 .form-control{
     width: 190px;

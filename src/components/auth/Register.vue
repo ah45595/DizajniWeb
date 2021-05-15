@@ -119,6 +119,7 @@ export default {
     color: #2a2c2e;
 }
 .btn {
+  border:2px solid black;
     background-color: black;
     color: white;
     font-family: Oswald;
@@ -127,6 +128,7 @@ export default {
     margin-bottom: 5px;
 }
 .btn:hover{
+  border: 2px solid green;
     background-color: green;
     color:black;
 }

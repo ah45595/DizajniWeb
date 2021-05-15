@@ -21,7 +21,7 @@
         viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
         Donec lacinia congue felis in faucibus.
       </p>
-      <button class="button">Contact Me</button>
+      <button class="button contact">Contact Me</button>
       <hr>
     </div>
     
@@ -43,7 +43,7 @@
         viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
         Donec lacinia congue felis in faucibus.
       </p>
-      <button class="button">Contact Me</button>
+      <button class="button contact">Contact Me</button>
       <hr>
     </div>
     
@@ -65,7 +65,7 @@
         viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
         Donec lacinia congue felis in faucibus.
       </p>
-      <button class="button">Contact Me</button>
+      <button class="button contact">Contact Me</button>
       <hr>
     </div>
    
@@ -87,7 +87,7 @@
         viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
         Donec lacinia congue felis in faucibus.
       </p>
-      <button class="button">Contact Me</button>
+      <button class="button contact">Contact Me</button>
       <hr>
     </div>
    

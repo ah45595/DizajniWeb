@@ -192,6 +192,7 @@ p{
 }
 
 .button{
+border: 2px solid red;
 background-color:black;
 border: none;
 color:white;
@@ -205,6 +206,7 @@ transition: 0.3s;
   background-color: #E2127A;
   color: white;
 }
+
 @media (max-width: 910px) {
   .profile-img{
     width:150px;
