@@ -161,6 +161,7 @@ button#search-button:focus {
   font-size: 1.3rem;
   line-height: 1.5;
 }
+/*About Us*/
 .aboutus{
   text-align: center;
   font-size: 50px;
@@ -186,6 +187,9 @@ button#search-button:focus {
   margin-left: 20px;
   font-family: Oswald;
 }
+p{
+  margin-left: 50px;
+}
 
 .button{
 background-color:black;
@@ -194,13 +198,36 @@ color:white;
 padding: 10px 20px;
 text-align: center;
 font-size: 15px;
-margin: 4px 2px;
+margin-left: 40px;
 transition: 0.3s;
 }
 .button:hover{
   background-color: #E2127A;
   color: white;
 }
+@media (max-width: 910px) {
+  .profile-img{
+    width:150px;
+    height:150px;
+   }
+   .profile-title{
+    font-size:20px;
+    margin-left: 30px;
+   }
+   .profile-name{
+    top: 60%;
+    left:60%;
+    font-size: 20px;
+    margin-left: 10px;
+   }
+   p{
+     margin-left: 50px;
+   }
+   .button{
+     margin-left: 40px;
+   }
+}
+/*The end of About Us*/
 
 .page-footer {
   background-color: #000000;
