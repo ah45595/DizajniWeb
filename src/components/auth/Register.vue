@@ -112,6 +112,7 @@ export default {
     font-family: Oswald;
     padding-top: 15px;
     margin-bottom: 30px;
+    color: #E2127A;
 }
 .form-group {
     font-family: Oswald;
