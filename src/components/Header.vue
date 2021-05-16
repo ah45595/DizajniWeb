@@ -2,7 +2,7 @@
   <div>
     <header>
     <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" id="logo" href="#">TECHNEWS</a>
+      <a class="navbar-brand" id="logo" href="/Home">TECHNEWS</a>
       <button
         class="navbar-toggler navbar-dark"
         type="button"
@@ -80,6 +80,11 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/user">
               <a>CONTACT</a>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/Map">
+              <a>LOCATIONS</a>
             </router-link>
           </li>
           <div class="input-group">
