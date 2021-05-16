@@ -12,9 +12,8 @@ import Smartphones from "./components/Smartphones.vue";
 import Cloud from "./components/Cloud.vue";
 import FiveG from "./components/FiveG.vue";
 import Iot from "./components/Iot.vue";
-
+import Maps from "./components/Maps.vue";
 import Howto from "./components/Howto.vue";
-
 import Laptop from "./components/Laptop.vue";
 import Desktop from "./components/Desktop.vue";
 import Gaming from "./components/Gaming.vue";
@@ -40,10 +39,9 @@ export const routes = [
     { path: '/5G', name:'5G', component:FiveG},
     { path: '/iot', name:'iot', component:Iot},
     { path: '/Howto', name:'Howto', component:Howto},
-
     {path: '/laptop', name:'laptop', component:Laptop},
     {path: '/desktop', name:'desktop', component:Desktop},
     {path: '/gaming', name:'gaming', component:Gaming},
-    {path: '/security', name:'security', component:Security}
-
+    {path: '/security', name:'security', component:Security},
+    {path: '/Map', name:'Maps', component:Maps}
 ]
