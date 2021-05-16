@@ -4,7 +4,9 @@ import VueRouter from 'vue-router'
 import firebase from "firebase";
 import Slider from "./components/Home-Slider.vue";
 import Smartphones from "./components/Smartphones.vue";
+import * as VueGoogleMaps from 'vue2-google-maps'
 
+Vue.config.productionTip = false;
 
 import { routes } from './routes';
 
@@ -63,3 +65,10 @@ new Vue({
   router,
   render: h => h(App)
 })
+
+//Maps - Key
+Vue.use(VueGoogleMaps,{
+  load:{
+    key: "AIzaSyB5Rm3187ezAUsGZvcK2hVN_X9gVM99BlY",
+  },
+});
