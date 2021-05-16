@@ -102,4 +102,5 @@
 .smartphones-cover {
   width: 100%;
 }
+
 </style>
