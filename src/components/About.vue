@@ -48,7 +48,7 @@
     </div>
     
     <div class="col-3">
-        <img class="profile-img" :src="require('../assets/profile.jpg')" />
+        <img class="profile-img" :src="require('../assets/profile1.jpg')" />
        <h1 class="profile-name">Viola Salihi</h1>
       </div>
       <div class="col-9">
@@ -70,7 +70,7 @@
     </div>
    
     <div class="col-3">
-        <img class="profile-img" :src="require('../assets/profile.jpg')" />
+        <img class="profile-img" :src="require('../assets/profile2.jpg')" />
        <h1 class="profile-name">Dita Ibrahimi</h1>
       </div>
       <div class="col-9">
